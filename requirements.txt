@@ -1,4 +1,8 @@
-Flask==3.0.3
+setuptools>=70
+wheel>=0.43
+cython
+
+Flask==2.3.2
 flask-cors==4.0.0
 pandas==2.2.2
 numpy==1.26.4
@@ -7,7 +11,3 @@ joblib==1.4.2
 googlemaps==4.10.0
 gunicorn==21.2.0
 packaging==24.0
-setuptools>=70
-wheel>=0.43
-cython
-
